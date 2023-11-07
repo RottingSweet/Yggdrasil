@@ -1,0 +1,158 @@
+/* 
+
+<a href="alfheim.html"><p style="width: 335.33px; height: 252px; background-color: blue; position: absolute; top: 475px;"></p><img class="map" src="../img/alfheim.jpg" alt=""></a>
+
+
+. = class
+# = id 
+
+*/
+
+body {
+    background-image: url(../img/background.jpg);
+    color: rgba(12, 29, 10, 0.884);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.Container_All {
+    background-image: url(../img/cadre.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    width: 1080px;
+    height: auto;
+    margin-left: 21.22%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    border: 5px solid;
+    border-color: rgba(61, 22, 5, 0.829);
+}
+
+.Nav_Bar {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 41px;
+    background-color: rgb(76, 89, 93);
+    width: auto;
+    height: 60px;
+    align-items: center;
+}
+
+.li_nav_bar {
+    justify-content: space-around;
+
+}
+
+#preview:hover {
+    background-color: rgb(109, 127, 133);
+    padding-top: 20.8px;
+    padding-bottom: 21px;
+    text-align: center;
+    padding-left: 1px;
+    padding-right: 1px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(12, 29, 10, 0.884);
+}
+
+.titre_accueil {
+    padding-left: 11%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 80px;
+    font-family: test;
+}
+
+.presentation {
+    padding: 0% 5% 3% 5%;
+}
+
+.one { 
+    background-color: rgb(57, 60, 66);
+    padding-top: 20.8px;
+    padding-bottom: 21px;
+    text-align: center;
+    padding-left: 1px;
+    padding-right: 1px;
+    align-items: center;
+}
+
+.location {
+    padding: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 25px;
+    justify-items: center;
+}
+
+#donttouch {
+    cursor: not-allowed;
+}
+
+#notallowed {
+    cursor: not-allowed;
+    filter: blur(0px);
+    transition: 1.5s;
+}
+
+#notallowed:hover {
+    filter: blur(2px) grayscale(2);
+}
+
+.map {
+    height: 250px;
+    filter: blur(0px);
+    z-index: 3;
+}
+
+.map:hover {
+    filter: blur(3px);
+    transition: 0.6s;
+}
+
+#map_center {
+    position: absolute;
+    left: 41%;
+    
+}
+
+.hidden {
+    color: rgba(255, 255, 255, 0);
+    padding: 0% 5% 3% 5%;
+}
+
+.insta {
+    text-align: right;
+    padding-right: 1%;
+    color: rgba(61, 22, 5, 0.829);
+}
+
+.template_title {
+    width: 500px;
+    justify-items: center;
+    padding-left: 25%;
+}
+
+.title_page {
+    font-size: 62px;
+    font-family: test;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.dessin_end_page {
+    width: 650px;
+    padding: 12% 0% 9% 15%;
+}
