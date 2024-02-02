@@ -1,0 +1,155 @@
+body {
+    background-image: url(../img/fond_bleu_long.png);
+    color: rgba(10, 14, 29, 0.884);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.Container_All {
+    background-image: url(../img/cadre.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    width: 1080px;
+    height: auto;
+    margin-left: 21.22%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    border: 5px solid;
+    border-color: rgba(61, 22, 5, 0.829);
+}
+
+.Nav_Bar {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: normal;
+    height: 60px;
+    margin-left: -40px;
+}
+
+.li_nav_bar {
+    justify-content: space-around;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.titre_accueil {
+    padding: 2% 0% 3% 11%;
+    font-size: 80px;
+    font-family: test;
+}
+
+.presentation {
+    padding: 0% 5% 3% 5%;
+}
+
+.insta {
+    text-align: right;
+    padding-right: 1%;
+    color: rgba(61, 22, 5, 0.829);
+}
+
+.dessin_end_page {
+    width: 650px;
+    padding: 10% 0% 7% 15%;
+}
+
+.arrow {
+    width: 100px;
+    padding: 5% 0% 5% 5%;
+    transition: 1s;
+}
+
+.arrow:hover {
+    transform: scale(1.2);
+}
+
+.fondpav {
+    background-image: url(../img/fond_pav.png);
+    height: 59px;
+    width: 1080px;
+    display: flex;
+}
+
+.pav1 {
+    width: 141px;
+    float: left;
+    transition: 0.5s;
+}
+
+.pav2 {
+    width: 128px;
+    float: left;
+    transition: 0.5s;
+}
+
+.pav3 {
+    width: 235px;
+    float: left;
+    transition: 0.5s;
+}
+
+.pav4 {
+    width: 145px;
+    float: left;
+    transition: 0.5s;
+}
+
+.pav5 {
+    width: 229px;
+    float: left;
+    transition: 0.5s;
+}
+
+.pav6 {
+    width: 202px;
+    float: left;
+    padding-bottom: 6%;
+    transition: 0.5s;
+}
+
+.pav1:hover {
+    transform: scale(0.95);
+}
+
+.pav2:hover {
+    transform: scale(0.95);
+}
+
+.pav3:hover {
+    transform: scale(0.95);
+}
+
+.pav4:hover {
+    transform: scale(0.95);
+}
+
+.pav5:hover {
+    transform: scale(0.95);
+}
+
+.pav6:hover {
+    transform: scale(0.95);
+}
+
+.template_title {
+    width: 500px;
+    justify-items: center;
+    padding-left: 25%;
+}
+
+.title_page {
+    font-size: 62px;
+    font-family: test;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
