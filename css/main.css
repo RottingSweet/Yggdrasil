@@ -8,11 +8,11 @@
 
 */
 
+
 body {
     background-image: url(../img/background.jpg);
     color: rgba(12, 29, 10, 0.884);
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
 body::-webkit-scrollbar {
@@ -26,7 +26,7 @@ body::-webkit-scrollbar {
     text-align: left;
     width: 1080px;
     height: auto;
-    margin-left: 21.22%;
+    margin: auto;
     margin-top: 7%;
     margin-bottom: 7%;
     border: 5px solid;
@@ -315,4 +315,15 @@ a {
     top: 700px;
     left: 600px;
     -webkit-user-select: none;
+}
+
+@media screen and (min-width: 1280) {
+    body {
+        background-size: cover;
+    }
+    
+    .Container_All {
+        position: absolute;
+        
+    }
 }
